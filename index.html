@@ -3,79 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Deletion Request - [Your App Name]</title>
+    <meta name="description" content="Sufi Rani English School - Online English Tutoring and Personality Development Services">
+    <title>Sufi Rani English School</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
         }
-        h1 {
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
             color: #333;
         }
-        p {
-            color: #555;
-        }
-        form {
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
             margin-top: 20px;
         }
-        label {
-            display: block;
-            margin-top: 10px;
-        }
-        input, textarea, button {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        button {
-            background-color: #4CAF50;
+        .button {
+            display: inline-block;
+            background: #007BFF;
             color: white;
-            border: none;
-            cursor: pointer;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
         }
-        button:hover {
-            background-color: #45a049;
+        .button:hover {
+            background: #0056b3;
         }
     </style>
 </head>
 <body>
-    <h1>Data Deletion Request</h1>
-    <p>This page allows you to request the deletion of your account and associated data for the app "<strong>[Your App Name]</strong>".</p>
-    <p>Follow the steps below to submit your request:</p>
-
-    <h2>Steps to Request Data Deletion</h2>
-    <ol>
-        <li>Complete the form below with your account details and any additional information.</li>
-        <li>Our team will verify your request and confirm deletion within [timeframe].</li>
-        <li>If you have any questions, you can contact us at <a href="mailto:support@example.com">support@example.com</a>.</li>
-    </ol>
-
-    <h2>Data Deleted</h2>
-    <p>Upon your request, the following types of data will be deleted:</p>
-    <ul>
-        <li>Account details (e.g., username, email).</li>
-        <li>App usage data and activity history.</li>
-        <li>Other personal information collected by the app.</li>
-    </ul>
-
-    <p>Data retained for legal or compliance purposes (if applicable) will be held for [retention period] and then deleted.</p>
-
-    <h2>Submit Your Request</h2>
-    <form action="[YOUR_BACKEND_ENDPOINT]" method="POST">
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-        <label for="accountId">Account ID (optional):</label>
-        <input type="text" id="accountId" name="accountId" placeholder="Enter your account ID">
-
-        <label for="message">Additional Information (optional):</label>
-        <textarea id="message" name="message" rows="5" placeholder="Provide any additional details"></textarea>
-
-        <button type="submit">Submit Request</button>
-    </form>
+    <header>
+        <h1>Sufi Rani English School</h1>
+        <p>Online English Tutoring & Personality Development</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#youtube">YouTube Channel</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Sufi Rani English School, your destination for professional English tutoring and personality development. We specialize in online classes and one-on-one sessions tailored for learners of all levels, helping them improve their communication skills and confidence.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Online English Tutoring</li>
+                <li>Personality Development</li>
+                <li>Business English</li>
+                <li>Public Speaking Training</li>
+            </ul>
+        </section>
+        <section id="youtube">
+            <h2>Our YouTube Channel</h2>
+            <p>Explore valuable tips, tutorials, and educational content on our YouTube channel, <strong>Sufi Rani</strong>.</p>
+            <a class="button" href="https://youtube.com/@sufiranii?si=hNEXmK9iE-3ovhh5" target="_blank">Visit Our Channel</a>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: sufirani@gmail.com</p>
+            <p>Phone: +91-XXXXXXXXXX</p>
+            <p>Address: Online Services Only</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sufi Rani English School. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
