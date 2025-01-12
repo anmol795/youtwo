@@ -156,6 +156,38 @@
                 transform: translateX(0);
             }
         }
+
+        /* Responsive Enhancements for Mobile */
+        @media (max-width: 768px) {
+            header {
+                padding: 30px 20px;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            header p {
+                font-size: 1em;
+            }
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                margin: 8px 0;
+                font-size: 1em;
+            }
+            .container {
+                margin: 20px auto;
+                padding: 10px;
+            }
+            section h2 {
+                font-size: 1.6em;
+            }
+            section p, ul {
+                font-size: 1em;
+                line-height: 1.6;
+            }
+        }
     </style>
 </head>
 <body>
@@ -190,9 +222,14 @@
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
-            <p><strong>Email:</strong> sufirani@gmail.com</p>
+            <p><strong>Email:</strong> <a href="mailto:sufirani@gmail.com">sufirani@gmail.com</a></p>
             <p><strong>Phone:</strong> +91-XXXXXXXXXX</p>
             <p><strong>Address:</strong> Online Services Only</p>
+            <br>
+            <!-- Added new clickable contact details -->
+            <p><strong>Alternate Email:</strong> <a href="mailto:Sufirani595@gmail.com">Sufirani595@gmail.com</a></p>
+            <p><strong>Telegram:</strong> <a href="https://t.me/sufi_rani" target="_blank">@sufi_rani</a></p>
+            <p><strong>Skype:</strong> <a href="skype:Sufi%20rani?call">Sufi rani</a></p>
         </section>
     </div>
     <footer>
